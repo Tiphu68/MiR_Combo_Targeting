@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --time=72:00:00
+#SBATCH -N 1 -c 10 
+#SBATCH --mem-per-cpu=12gb
+#SBATCH --output=np.stdout
+#SBATCH --mail-user=dtw43@case.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --job-name=NP_EWS_DTW
+
+# Run R
+module load gcc
+module load R
+Rscript ~/miRNA_targeting/main_ews_mir.R

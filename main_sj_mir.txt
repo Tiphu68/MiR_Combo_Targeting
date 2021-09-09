@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --time=72:00:00
+#SBATCH -N 1 -c 20
+#SBATCH --mem=64gb
+#SBATCH --output=np.stdout
+#SBATCH --mail-user=dtw43@case.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --job-name=NP_SJ_DTW
+
+# Run R
+module load gcc
+module load R
+Rscript ~/miRNA_targeting/main_sj_mir.R

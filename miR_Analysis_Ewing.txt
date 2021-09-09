@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --time=72:00:00
+#SBATCH -N 1 -c 8
+#SBATCH --mem=128gb
+#SBATCH --output=miR.stdout
+#SBATCH --mail-user=dtw43@case.edu
+#SBATCH --mail-type=FAIL
+#SBATCH --job-name=MIR_EWS_DTW
+
+# Run R
+module load gcc
+module load R
+Rscript ~/miRNA_targeting/miR_Analysis_Ewing.R
