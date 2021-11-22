@@ -1,6 +1,6 @@
 # MiR_Combo_Targeting
 Companion code for the paper: "Network potential identifies therapeutic miRNA cocktails in Ewing sarcoma"
-You can find the pre-print for this analysis here.https://www.biorxiv.org/content/10.1101/854695v1
+You can find the puplication for this analysis here: https://journals.plos.org/ploscompbiol/article/comments?id=10.1371/journal.pcbi.1008755
 If you have any questions regarding how to run this pipeline on your device/ use it for your research, 
 feel free to shoot me an email at davis.weaver@case.edu. 
 
